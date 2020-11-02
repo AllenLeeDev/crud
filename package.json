@@ -1,0 +1,25 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "@okta/jwt-verifier": "0.0.15",
+    "@okta/okta-sdk-nodejs": "^2.0.0",
+    "apollo-server": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.3.0",
+    "node-fetch": "^2.6.1",
+    "uuid": "^3.3.2"
+  }
+}
